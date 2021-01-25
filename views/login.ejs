@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TISCO EMPLOYEE PORTAL</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 60px;
+   background-color: black;
+   color: white;
+   text-align: center;}
+
+   body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: #618acc;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #618acc;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+
+
+<nav class="navbar navbar-inverse navbar-fixed-top n">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="https://www.tatasteel.com/" target="_blank"><img src="https://www.tatasteel.com/images/tata-steel-logo.png" alt="TATA STEEL"></a>
+    </div>
+    <!-- <ul class="nav navbar-nav"></ul> -->
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="home.html" style="margin-top: 7px"><span class="glyphicon glyphicon-user" ></span> HOME</a></li>
+      <!-- <li><a href="login.html" target="_blank" style="margin-top: 7px"><span class="glyphicon glyphicon-log-in"></span> Login</a></li> -->
+      <li><a href="/"><img src="https://www.tatasteel.com/images/tata_logo.png" alt="TATA STEEL" height="30px"></a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- <h2 style="margin-top: 100px; text-align: center;">ENTER YOUR DETAILS</h2> -->
+
+
+<form  style="max-width:500px;margin:auto" method="POST" action="">
+  <h2 style="margin-top: 35%; text-align: center;">LOGIN</h2>
+  <div class="input-container" style="margin-top: 5%" >
+   <!--  <i class="fa fa-user icon"></i>
+    <input class="input-field" type="text" placeholder="Full Name" name="usrnm"> -->
+  </div>
+
+  <div class="input-container">
+    <i class="fa fa-envelope icon"></i>
+    <input class="input-field" type="text" placeholder="Email" name="username">
+  </div>
+  
+  <div class="input-container">
+    <i class="fa fa-key icon"></i>
+    <input class="input-field" type="password" placeholder="Password" name="password">
+  </div>
+
+
+  <a href="/logout"><button type="submit" class="btn">Login</button></a>
+  <a href="#"><h4 style="text-align: right;color: black;">Forgot password?</h4></a>
+</form>
+
+<div class="footer">
+  <p style="margin-top: 20px">BUY . SELL . RENT</p>
+</div>
+</body>
+</html>
